@@ -15,13 +15,13 @@ const Header = ({ siteTitle }) => (
     <nav className="site-nav">
       <ul className="list-view">
         <li>
-          <Link to="/about">about</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/work">work</Link>
+          <Link to="/work">Work</Link>
         </li>
         <li>
-          <Link to="/contact">contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

@@ -8,12 +8,9 @@
   margin-bottom: 2rem;
 
   .logo {
-    border-radius: 30%;
+    border-radius: 20%;
     background: $grey1;
     width: 100px;
-    img {
-      // border-radius: 20%;
-    }
   }
 }
 .site-nav {
@@ -24,7 +21,11 @@
     display: flex;
 
     li {
-      margin-right: 1.5rem;
+      margin-right: 2rem;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
     }
   }
 }
