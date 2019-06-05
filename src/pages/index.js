@@ -11,9 +11,9 @@ const IndexPage = () => (
     <div className="marquee">
       <Image name="mountains.png" />
     </div>
-    <h2>
+    <h1>
       Hi! I'm David. I'm a Front-end Developer, Designer, and full time nerd.
-    </h2>
+    </h1>
     <p>
       I'm a web developer who loves designing clean, friendly user interfaces.
       I'm currently living in the beautiful city of Edmonton, Alberta.
