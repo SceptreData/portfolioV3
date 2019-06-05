@@ -20,7 +20,7 @@ const IndexPage = () => (
     </p>
     <p>
       Get in touch with me on
-      <a href="https://twitter.com/DavidFBergeron">Twitter</a> or hit me up by{" "}
+      <a href="https://twitter.com/DavidFBergeron"> Twitter</a> or hit me up by{" "}
       <a href="mailto: david.f.bergeron@gmail.com">e-mail.</a>
     </p>
     <Link to="/page-2/">Go to page 2</Link>
