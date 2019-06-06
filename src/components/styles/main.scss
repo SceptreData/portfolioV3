@@ -3,9 +3,13 @@
 @import "typography";
 
 @import "header";
-@import "./pages/home";
+@import "pages/home";
+@import "pages/about";
+@import "pages/work";
+@import "pages/contact";
 
 body {
+  overflow-y: scroll;
   color: $dark0;
   background: white;
 }

@@ -10,7 +10,11 @@ const Image = ({ name }) => (
           edges {
             node {
               fluid(maxWidth: 1500) {
+                #  Enable this when building for optimized images
                 ...GatsbyImageSharpFluid_withWebp
+                # ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                # ...GatsbyImageSharpFluid_tracedSVG
+                # ...GatsbyImageSharpFluid
                 originalName
               }
             }
