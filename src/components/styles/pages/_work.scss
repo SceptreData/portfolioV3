@@ -1,0 +1,15 @@
+.work-items{
+    display: flex;
+    align-items: center;
+}
+
+.work-item {
+  width: 300px;
+  margin-right: 3.5rem;
+
+  text-align: center;
+  & > time {
+    font-size: .8rem;
+  }
+}
+
